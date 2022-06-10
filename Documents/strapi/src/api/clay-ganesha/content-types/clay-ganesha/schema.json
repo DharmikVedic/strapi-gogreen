@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clay_ganeshas",
+  "info": {
+    "singularName": "clay-ganesha",
+    "pluralName": "clay-ganeshas",
+    "displayName": "clay-ganesha"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
