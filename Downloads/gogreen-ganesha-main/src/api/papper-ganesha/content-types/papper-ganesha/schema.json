@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "papper_ganeshas",
+  "info": {
+    "singularName": "papper-ganesha",
+    "pluralName": "papper-ganeshas",
+    "displayName": "papper-ganesha"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext",
+      "default": "description",
+      "required": true
+    },
+    "price": {
+      "type": "float",
+      "required": true
+    },
+    "additionalinfo": {
+      "type": "richtext",
+      "default": "additional information",
+      "required": true
+    },
+    "Features": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
